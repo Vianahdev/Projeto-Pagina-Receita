@@ -1,0 +1,105 @@
+/*########################################
+################# MAIN ###################
+########################################*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+}
+
+/*########################################
+############### HEADER ################
+########################################*/
+
+#nav-bar{
+    background-color: #ff6b28;
+    padding: 15px;
+    text-align: center;
+}
+
+/*########################################
+############ CONTAINER-HEADER ############
+########################################*/
+
+#container-header{
+    height: 400px;
+    background: url(../images/hero_bolo.jpg) no-repeat center;
+    background-size: cover;
+}
+
+
+
+/*########################################
+############ CONTAINER-HEADER ############
+########################################*/
+
+#container-content{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+#container-content h1{
+    color: #ff6b28;
+    margin: 25px 0;
+}
+
+.content100w{
+    padding: 40px 25px;
+    margin-bottom: 5px;
+    border-radius: 15px;
+}
+
+.content100w:hover{
+    box-shadow: 8px 8px 15px 12px rgba(205,205,205, 0.25);
+}
+
+.content100w h4{
+    color: #ff6b28;
+    padding-bottom: 20px;
+}
+
+.content100w ul{
+    color: black;
+    padding: 0 30px;
+    font-weight:400;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.content100w ol{
+    color: black;
+    padding: 0 30px;
+    font-weight:400;
+    font-size: 16px;
+}
+
+.content100w a{
+    background-color: #ff6b28;
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.content100w p{
+    padding-bottom: 15px;
+
+}
+
+/*########################################
+############ FOOTER ############
+########################################*/
+
+#footer-bar{
+    background-color: #ff6b28;
+    padding: 15px;
+}
+
+.footer-content{
+    color: white;
+    text-align: center;
+    font-size: 11px;
+}
